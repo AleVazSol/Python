@@ -154,6 +154,7 @@ def run():
                 print(messages[MESSAGE_NAMES[strikes]])
                 print(formedWord)
                 if strikes==5:
+                    print(wordToGuess)
                     doneFlag=True    
 
 
@@ -165,6 +166,7 @@ def run():
             print(messages[MESSAGE_NAMES[strikes]])
             print(formedWord)
             if strikes==5:
+                print(wordToGuess)
                 doneFlag=True
 
 
