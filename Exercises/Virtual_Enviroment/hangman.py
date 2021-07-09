@@ -71,7 +71,7 @@ def get_messages(): #This function return a dictionary of messages
     mess6=mess6.join(message6)
     
 
-    joinMessages={
+    jointMessages={
         "Start":mess0,
         "Strike1":mess1,
         "Strike2":mess2,
@@ -80,7 +80,7 @@ def get_messages(): #This function return a dictionary of messages
         "Strike5":mess5,
         "End":mess6,
         }
-    return joinMessages        
+    return jointMessages        
 
 
 def get_word(): #This function returns the word to guess
