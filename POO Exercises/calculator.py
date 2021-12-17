@@ -13,7 +13,7 @@ class Calculator:
         return self._numa
          
     @numa.setter
-    def setNumA(self,value):
+    def numa(self,value):
         if (int(value)>=0):
             self._numa=value
             print(f"NumA value was setted to: {value}")
@@ -26,7 +26,7 @@ class Calculator:
         return self._numb
          
     @numb.setter
-    def setNumB(self,value):
+    def numb(self,value):
         if (int(value)>=0):
             self._numb=value
             print(f"NumB value was setted to: {value}")
